@@ -11,7 +11,7 @@ class LinearSearch
     n = in.nextInt(); 
     array = new int[n];
  
-    System.out.println("Enter " + n + " integers");
+    System.out.println("Enter " + n + " integers reema");
  
     for (c = 0; c < n; c++)
       array[c] = in.nextInt();
