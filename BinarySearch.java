@@ -9,10 +9,7 @@ class BinarySearch
     Scanner in = new Scanner(System.in);
     System.out.println("Enter number of elements");
     n = in.nextInt(); 
-    array = new int[n];
- 
-    System.out.println("Enter " + n + " integers");
- 
+    array = new int[n]; 
  
     for (c = 0; c < n; c++)
       array[c] = in.nextInt();
@@ -26,14 +23,12 @@ class BinarySearch
  
     while( first <= last )
     {
-      if ( array[middle] < search )
-        first = middle + 1;    
-      else if ( array[middle] == search ) 
-      {
+      if ( array[middle] < search ) {		 
+        first = middle + 1; 
+	  } else if ( array[middle] == search ) {
         System.out.println(search + " found at location " + (middle + 1) + ".");
         break;
-      }
-      else
+      } else
          last = middle - 1;
  
       middle = (first + last)/2;
