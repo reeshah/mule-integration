@@ -10,8 +10,9 @@ class LinearSearch
     System.out.println("Enter number of elements");
     n = in.nextInt(); 
     array = new int[n];
- 
     System.out.println("Enter " + n + " reema biswa");
+    System.out.println("Enter hello");
+	System.out.println("hello world");
  
     for (c = 0; c < n; c++)
       array[c] = in.nextInt();
